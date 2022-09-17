@@ -7,7 +7,7 @@ from torchvision import datasets, transforms
 import logging
 import syft as sy
 import torchvision
-import  pdb
+import pdb
 hook = sy.TorchHook(torch)
 qin = sy.VirtualWorker(hook=hook, id="qin")
 zheng = sy.VirtualWorker(hook=hook, id="zheng")
